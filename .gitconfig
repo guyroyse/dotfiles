@@ -1,0 +1,17 @@
+[user]
+  name = Guy Royse
+  email = guy@guyroyse.com
+
+[color]
+  ui = true
+
+[alias]
+  co = checkout
+  br = branch
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+
+[push]
+  default = simple
+
+[init]
+  defaultBranch = main

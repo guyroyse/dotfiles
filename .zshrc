@@ -16,9 +16,11 @@ ZSH_THEME_GIT_PROMPT_AHEAD=" ↑"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[red]%}✖"
 ZSH_THEME_GIT_PROMPT_STAGED="%{$fg[green]%}●"
 ZSH_THEME_GIT_PROMPT_UNSTAGED="%{$fg[red]%}✚"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="…"
+ZSH_THEME_GIT_PROMPT_UNTRACKED=" …"
 ZSH_THEME_GIT_PROMPT_STASHED="%{$fg[blue]%}⚑"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_bold[green]%}✔"
+
+
 
 # better prompt
 PROMPT='%B%F{51}%* %F{46}%n@%M %F{226}%~%F{21}%b $(gitprompt)%f

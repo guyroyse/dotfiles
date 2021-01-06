@@ -31,5 +31,8 @@ alias ls='ls -lGh'
 # just for fun
 alias yomomma="curl -s https://api.yomomma.info/ | jq '.joke' | say -v Daniel"
 
-# java for Mac
+# Java for Mac
 export JAVA_HOME=$(/usr/libexec/java_home)
+export MAVEN_HOME=/opt/apache-maven-3.6.3
+
+export PATH=$PATH:$MAVEN_HOME/bin

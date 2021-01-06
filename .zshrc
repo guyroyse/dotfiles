@@ -24,10 +24,12 @@ ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg_bold[green]%}✔"
 PROMPT='%B%F{51}%* %F{46}%n@%M %F{226}%~%f%b $(gitprompt)%f
 🐵 '
 
-
 # better list
 export LSCOLORS=Dxcxgxfxbxegedabagdxdx
 alias ls='ls -lGh'
 
 # just for fun
 alias yomomma="curl -s https://api.yomomma.info/ | jq '.joke' | say -v Daniel"
+
+# java for Mac
+export JAVA_HOME=$(/usr/libexec/java_home)

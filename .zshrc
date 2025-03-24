@@ -21,7 +21,9 @@ ZSH_THEME_GIT_PROMPT_STASHED=" %{$fg[blue]%}⚑"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg_bold[green]%}✔"
 
 # better prompt
-PROMPT='%B%F{51}%* %F{46}%n@%M %F{226}%~%f%b $(gitprompt)%f
+#PROMPT='%B%F{51}%* %F{46}%n@%M %F{226}%~%f%b $(gitprompt)%f
+# 🐵 '
+PROMPT='%B%F{32}%* %F{70}%n@%M %F{214}%~%f%b $(gitprompt)%f
 🐵 '
 
 # better list
@@ -33,6 +35,16 @@ alias yomomma="curl -s https://api.yomomma.info/ | jq '.joke' | say -v Daniel"
 
 # Java for Mac
 export JAVA_HOME=$(/usr/libexec/java_home)
-export MAVEN_HOME=/opt/apache-maven-3.6.3
+export MAVEN_HOME=/opt/apache-maven-3.9.0
 
 export PATH=$PATH:$MAVEN_HOME/bin
+
+# WebAssembly Stuff
+export PATH=$PATH:~/wabt/build
+
+# rust stuff
+source ~/.cargo/env
+
+# JQ colors
+export JQ_COLORS="1;31:0;33:0;33:0;36:0;32:1;39:1;39"
+

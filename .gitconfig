@@ -15,12 +15,13 @@
 
 [init]
   defaultBranch = main
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
 [lfs]
 	contenttype = 0
-[safe]
-	directory = /Users/guyroyse/redis-8.0.1/modules/redisearch/src
+

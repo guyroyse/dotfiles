@@ -26,8 +26,7 @@ PROMPT='%B%F{32}%* %F{70}%n@%M %F{214}%~%f%b $(gitprompt)%f
 
 # better list
 export LSCOLORS=Dxcxgxfxbxegedabagdxdx
-alias ls='ls -lGh'
+alias ls='lsd -lGh'
 
 # JQ colors
 export JQ_COLORS="1;31:0;33:0;33:0;36:0;32:1;39:1;39"
-

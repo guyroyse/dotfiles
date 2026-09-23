@@ -28,5 +28,7 @@ PROMPT='%B%F{32}%* %F{70}%n@%M %F{214}%~%f%b $(gitprompt)%f
 export LSCOLORS=Dxcxgxfxbxegedabagdxdx
 alias ls='lsd -lGh'
 
+alias tree='lsd --tree'
+
 # JQ colors
 export JQ_COLORS="1;31:0;33:0;33:0;36:0;32:1;39:1;39"
